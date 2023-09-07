@@ -1,0 +1,12 @@
+.projectContainer{
+display: flex;
+flex-direction: column;
+justify-content: center;
+row-gap: 15px;
+}
+
+.languagesSpan{
+    border: 1px solid black;
+    padding: 3px;
+    margin: 0px 5px;
+}

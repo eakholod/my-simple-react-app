@@ -2,12 +2,12 @@ import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import { projectsInfo } from "./data";
 import "./App.css";
-import ProjectDetials from "./projectDetails";
+import ProjectDetails from "./projectDetails";
 
 function App(){
     return (
         <div className="">
-            <div className="mx-20 flex gap-5 my-24">
+            <div className="">
                 {
                     projectsInfo.map((project)=> {
                         return (
@@ -18,7 +18,7 @@ function App(){
                 }
             </div>
             <Routes>
-                <Route path="projectsInfo/:projectId" element={<ProjectDetials/>} />
+                <Route path="projectsInfo/:projectId" element={<ProjectDetails/>} />
             </Routes>
         </div>
     )

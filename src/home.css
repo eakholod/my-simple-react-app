@@ -1,0 +1,14 @@
+.homediv {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 20px;
+}
+
+.hometitle{
+    color: rgb(89, 89, 89);
+}
+
+.intro{
+color: rgb(38, 38, 38);
+}
+

@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(242, 242, 242);
+    margin: 20px;
+}
+
+.navbar a {
+    margin: 20px auto;
+    text-decoration: none;
+    color: grey;
+    font-weight: 600;
+}
+
+.navbar a:first-of-type{
+    color: rgb(89, 89, 89);
+    font-weight: 700;
+}
+
+.navbar a:hover{
+    color:rgb(166, 166, 166);
+
+}
